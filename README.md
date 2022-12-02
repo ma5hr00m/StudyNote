@@ -12,7 +12,7 @@
   💻主要关于 <b> web开发 </b> & <b> web安全 </b>
 </div>
 
-<div aliggn=center>
+<div align=center>
   🔨除此之外还有一些工具的配置及使用  
 </div>
 

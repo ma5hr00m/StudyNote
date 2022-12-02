@@ -18,7 +18,7 @@ update: 2022-11-11
 
 而`Git`，是目前非常优秀的一个分布式版本控制系统。
 
-## `Git`工作流程
+## `git`工作流程
 
 `Git`有三个分区： 工作区、暂存区、仓库区。
 
@@ -42,7 +42,7 @@ update: 2022-11-11
 
   为了方便查找提交，`note`逐渐形成了一定的规范，目前使用最广的是`Angular`。
 
-## 安装`Git`
+## 安装`git`
 
 `Ubuntu`系统下，·控制台中输入一行代码即可完成`Git`的安装。
 
@@ -59,7 +59,7 @@ $ git config --global user.email "email@example.com"
 
 
 
-## `Git`基本指令
+## `git`基本指令
 
 - 版本库初始化（ 也就是将目录初始化为`Git `可管理的本地仓库 ）
 
@@ -103,14 +103,24 @@ $ git config --global user.email "email@example.com"
   $ git branch -a
   ```
 
-  
+- 远程更新仓库的本地版本
 
+  ```shell
+  $ git pull
+  ```
 
+- 推送本地仓库区内容到远程仓库
 
+  ```shell
+  $ git push
+  ```
 
+- 将`github`仓库内容克隆到本地
 
+  ```shell
+  $ git clone yourRepositoriesSSH
+  ```
 
+## `git`的绝技——`branch`分支
 
-
-
-## `Git`使用时涉及到的一些概念
+> :yum:[这篇博客](https://www.cnblogs.com/soyxiaobi/p/9567750.html)讲得很详细了，直接去看！

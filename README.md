@@ -9,15 +9,15 @@
 </div>
 
 <div align=center>
-  💻主要关于 <b> web开发 </b> & <b> web安全 </b>
+ 主要关于 <b> web开发 </b> & <b> web安全 </b>
 </div>
 
 <div align=center>
-  🔨除此之外还有一些工具的配置及使用  
+  除此之外还有一些工具的配置及使用  
 </div>
 
 <div align=center>
-  👀也可能会有一些奇怪的文件
+  😋也可能会有一些奇怪的文件
 </div>
 
 <div align=center>
@@ -25,9 +25,9 @@
 <div>
   
 <div align=center>
-  😆因为想自己写个博客网站，但现在能力还不足
+  因为想自己写个博客网站，但现在能力还不足
 </div>
   
 <div align=center>
-  😋等以后写好了再将这些笔记转上去
+  等以后写好了再将这些笔记转上去
 </div>

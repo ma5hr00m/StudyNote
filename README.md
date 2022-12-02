@@ -1,11 +1,11 @@
 <div align=center>
 
-# ✨ StudyNote ✨
+<h1> ✨ StudyNote ✨ </h1>
 
 </div>
 
 <div align=center>
-  🎉一个用来存储学习笔记的仓库
+  <h2>🎉一个用来存储学习笔记的仓库</h2>
 </div>
 
 <div align=center>
@@ -21,7 +21,7 @@
 </div>
 
 <div align=center>
-  :yum:为什么不放在博客上呢
+  <h2> :yum:为什么不放在博客上呢 </h2>
 <div>
   
 <div align=center>

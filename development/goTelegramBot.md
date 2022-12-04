@@ -4,9 +4,17 @@ time: 2022-11-25
 update: 2022-11-25
 ---
 
-# Go开发telegramBot初体验
+<div align=center>
+
+# Go开发telegramBot
+
+</div>
+
+<div align=center>
 
 ## 申请telegramBot账号
+
+</div>
 
 1. telegram内搜索`BotFather`，发起对话。
 
@@ -43,7 +51,11 @@ update: 2022-11-25
    For a description of the Bot API, see this page: https://core.telegram.org/bots/api
    ```
 
+<div align=center>
+
 ## 测试运行
+
+</div>
 
 1. 在`github`新创建了一个仓库，`clone`到本地后进入本地仓库，编译安装`Golang`版本的`telegram bot api`。
 
@@ -97,4 +109,15 @@ update: 2022-11-25
    go run bot.go
    ```
 
-   
+<br>
+
+<div align=center>
+
+## Golang "log"包基础笔记
+
+</div>
+
+Golang标准库的"log"包提供基础的日志功能。
+
+> :question: 什么是“日志文件”，为什么需要日志文件?
+

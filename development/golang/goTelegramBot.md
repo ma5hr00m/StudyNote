@@ -110,14 +110,3 @@ update: 2022-11-25
    ```
 
 <br>
-
-<div align=center>
-
-## Golang "log"包基础笔记
-
-</div>
-
-Golang标准库的"log"包提供基础的日志功能。
-
-> :question: 什么是“日志文件”，为什么需要日志文件?
-

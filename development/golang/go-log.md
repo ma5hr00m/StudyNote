@@ -101,7 +101,7 @@ Printf("%s", ayy)
 # Panic()没搞懂...
 ```
 
-> :question: `defer`关键字的作用
+> #### :question: `defer`关键字的作用
 >
 > 表示延迟调用，通常用于关闭一些资源
 >
@@ -200,3 +200,49 @@ func init() {
 
 
 ### 自定义`logger`
+
+`log`默认的`logger`被称为`std`，意思是标准日志。我们可以直接修改`std`，也使用`log.New()`自定义一个`logger`。
+
+```go
+package main
+
+import (
+  "bytes"
+  "fmt"
+  "log"
+)
+
+type User struct {
+  Name string
+  Age  int
+}
+
+func main() {
+  u := User{
+    Name: "dj",
+    Age:  18,
+  }
+
+  buf := &bytes.Buffer{}
+  logger := log.New(buf, "", log.Lshortfile|log.LstdFlags)
+
+  logger.Printf("%s login, age:%d", u.Name, u.Age)
+
+  fmt.Print(buf.String())
+}
+```
+
+`log.New()`接受三个参数：
+
+- `io.Writer`：日志都会写到这个`Writer`中，可以是标准输出、文件甚至发送到网络；
+- `prefix`：前缀，也可以后面调用`logger.SetPrefix`设置；
+- `flag`：选项，也可以后面调用`logger.SetFlag`设置。
+
+上面代码将日志输出到一个`bytes.Buffer`，然后将这个`buf`打印到标准输出。
+
+> #### :question:  bytes.Buffer
+>
+> bytes.Buffer 是 Golang 标准库中的缓冲区，具有读写方法和可变大小的字节存储功能。
+>
+> [进一步了解戳这里](https://cloud.tencent.com/developer/article/1456243)
+
